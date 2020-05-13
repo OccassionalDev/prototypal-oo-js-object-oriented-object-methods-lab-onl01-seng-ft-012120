@@ -5,3 +5,6 @@ function BoardMember(name, homeState, training) {
 }
 
 BoardMember.prototype.veto = () => "No, I must disagree";
+BoardMember.prototype.approve = () => "You can do that!";
+BoardMember.prototype.doCharity = () => "I like to help people.";
+BoardMember.prototype.rel
